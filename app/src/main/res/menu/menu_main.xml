@@ -5,9 +5,13 @@
     <item
         android:id="@+id/action_signUp"
         android:title="@string/action_signUp"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/actuon_memo"
         android:title="@string/action_memo"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_buttons"
+        android:title="@string/action_button"
+        app:showAsAction="never" />
 </menu>
