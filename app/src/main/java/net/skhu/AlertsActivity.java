@@ -87,13 +87,6 @@ public class AlertsActivity extends AppCompatActivity {
         builder.setPositiveButton(R.string.cat, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                ImageView imageView1 = (ImageView)findViewById(R.id.imageView);
-                imageView1.setImageResource(R.drawable.animal_cat_large);
-            }
-        });
-        builder.setPositiveButton(R.string.cat, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
                 ImageView imageView1 = (ImageView)findViewById(R.id.imageView1);
                 imageView1.setImageResource(R.drawable.animal_cat_large);
             }
